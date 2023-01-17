@@ -1,0 +1,33 @@
+.header{
+    background: #ccc;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #6c757d;
+}
+.nav{
+    height: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+}
+.header-nav a{
+    color: black;
+    border-bottom: 1px solid;
+    margin-left: 10px;
+}
+.header-nav a:hover{
+    color: red; 
+    border-bottom: none; 
+}
+
+.page{
+    display: none;
+}
+.page:target{
+    display: block;
+}
